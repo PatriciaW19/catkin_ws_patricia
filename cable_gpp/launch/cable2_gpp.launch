@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<launch>
+
+    <include file="$(find match_gazebo)/launch/gazebo_world_common.launch" pass_all_args="true">
+		 <arg name="world_name" value="advanced_maze"/>
+	</include>
+
+    <include file="$(find mir_launch_sim)/launch/mir_600.launch">
+        <arg name="global_planner" value="cable_single_robot" />
+        <arg name="global_planner_config" value="$(find cable_gpp)/config/global_planner_params.yaml" />
+        
+    </include>
+
+    <node type="rviz" name="rviz" pkg="rviz" />
+</launch>

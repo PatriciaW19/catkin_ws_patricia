@@ -1,0 +1,13 @@
+<launch>
+    <node pkg="mbf_costmap_nav" type="mbf_costmap_nav" name="mbf_costmap_nav" output="screen">
+
+    <param name="mbf_costmap_nav/cable_gpp" value="cable_gpp/cable_single_robot"/>
+    <param name="mbf_costmap_nav/cable_gpp_ns" value="cable_gpp_ns::cable_gpp"/>
+
+    <rosparam file="$(find cable_gpp)/config/global_costmap_params.yaml" command="load"/>
+    <rosparam file="$(find cable_gpp)/config/mbf_params.yaml" command="load"/>
+        
+    </node>
+
+</launch>
+

@@ -1,0 +1,5 @@
+<library path="lib/libcable_gpp">
+    <class name="cable_gpp/cable_single_robot" type="cable_gpp_ns::cable_gpp" base_class_type="mbf_costmap_core::CostmapPlanner">
+        <description>This is a global planner plugin cable.</description>
+    </class>
+</library>

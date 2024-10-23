@@ -1,0 +1,7 @@
+planners:
+  - name: 'cable_single_robot'
+    type: 'cable_gpp/cable_single_robot'
+
+
+cable_single_robot:
+  default_tolerance: 0.2

@@ -1,0 +1,45 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/rosmatch/catkin_ws_patricia/devel/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/mir/area_obstacle/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/ur/ur_ros_driver/controller_stopper/include/**",
+        "/home/rosmatch/catkin_ws_patricia/src/match_mobile_robotics/mir/mir_submodules/ewellix_tlt/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/formation-path-planning/formation_costmap/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/formation-path-planning/formation_layer/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/formation-path-planning/fp_utils/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/formation-path-planning/fpc_ros/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/formation-path-planning/fpp_ros/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/panda/franka_ros/franka_control/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/panda/franka_ros/franka_example_controllers/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/panda/franka_ros/franka_gripper/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/panda/franka_ros/franka_hw/include/**",
+        "/home/rosmatch/catkin_ws_patricia/src/match_mobile_robotics/submodules/gazebo_ros_link_attacher/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/mir/line_obstacle/include/**",
+        "/home/rosmatch/catkin_ws_patricia/src/match_mobile_robotics/submodules/match_path_planning/local_plan_follower/include/**",
+        "/home/rosmatch/catkin_ws_patricia/src/match_mobile_robotics/match_gazebo/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/panda/panda_controllers_extended/include/**",
+        "/home/rosmatch/catkin_ws_patricia/src/match_mobile_robotics/submodules/match_path_planning/splined_voronoi/splined_voronoi/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/formation-path-planning/testing_pkg/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/ur/ur_ros_driver/ur_calibration/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/ur/ur_controllers_extended/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/ur/universal_robot/ur_kinematics/include/**",
+        "/home/rosmatch/catkin_ws_Rayen/src/match_mobile_robotics-1/ur/ur_ros_driver/ur_robot_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,5 @@
+<library path="lib/libdummy_planner">
+    <class name="dummy_planner/dummy_planner_cable" type="dummy_planer::dummy_planner" base_class_type="nav_core::BaseGlobalPlanner">
+        <description>This is a dummy planner plugin cable.</description>
+    </class>
+</library>
